@@ -13,6 +13,6 @@ Every examples are maden with Azure studio, below the list of the portals:
 ## OCR From handwritten document
 This example shows the capabilities of Azure Vision to analayze an handwritten document, and extract text from it. Other this activity, I wrapped every single words inside a red rectangle, to show every part of text analizyed.
 
-
+Video, below
 
 ![ExtractDocumentInformation](https://github.com/PhillCRIta/CSharp_IA_OcrImage/blob/cedd696650bb72a77e7167a795fa8491477d305b/OCRImage.gif)
