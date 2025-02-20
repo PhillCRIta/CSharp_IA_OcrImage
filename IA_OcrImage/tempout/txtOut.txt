@@ -1,0 +1,136 @@
+SQL SERVER - SCHEDULERS, WORKERS
+TASKS
+SCHEDULERS & moienne descuto come un pezzo di software che coordina l'esecuzione
+di differenti processo e amministra le loro risorse disponibili
+SOLS la implementa in quell'oggetto che conosciamo come SOLOS
+Lo- scheduletore di minden non soddisfa quello che vere a un alo relazionale.
+Windows use un PREEMPTIVE scheduling, che opsegne delle risorse a ogni thread,
+se il thread consumo tutte le risorse, nema mondato in coda è n' nocede con fil thread
+successno.
+SOLS use une COOPERATIVE
+*******Scheduling, i thread pomeno volontariamente*******
+Cedere le proprie risorse (suha un
+SOS. SCHEDULER- YIELD mont type). questo
+permette de a Sors du attimisure le rossise / usa della CPU , ni quanto-se unthread
+¿ segnalato per l'esecuzione, ma non è pronto, le sue risorse vengono cedute al
+-med successivo. SPLS ha uno schedulatore per CPU (zia banco che naturale)
+Gli scheduler non sono vincolato alla CPU ,possono anche combate CPU.
+Pervincalarla bisogna definire una maschera di AFFINITÀ)
+SYS. DM_OS_ SCHEDULERS
+x monitor sal
+scheduler status.
+WORKERS > sono i processi gestiti della schedulatore, sapatilha paragonarlo
+an threads, ma il concetto di worker include Wonder FIBER. Filer c' inimita
+*******anche*******
+de secuzione che è acute DENTRO un thread, con l'intenzione di evitare un combo-
+de contesto, superò paragonsee a un mini-thread che gira dentro un thread.
+Ther made è attunate quando sette Lightweight Poolung , cover, avreione 1,
+solitamente questa opzione non è da combrocco, ma se lo fun ci sono alcune funciona lato
+de SOLS che NON FUNZIONATO THE CUR, SALAMI, SAL MAIL.
+C'èun limite al numero do corker che possono essere gestiti dolla scheduler
+in love al parametro "MAX WORKER THREADS" sque configuration
+e vi esse al numero degli scheduler presente. .
+SYS. DM-05- WORKERS
+verificare lo stato degli quartiers
+
+
+
+
+
+
+
+
+SQL SERVER - SCHEDULERS, WORKERS
+TASKS
+SCHEDULERS & moienne descuto come un pezzo di software che coordina l'esecuzione
+di differenti processo e amministra le loro risorse disponibili
+SOLS la implementa in quell'oggetto che conosciamo come SOLOS
+Lo- scheduletore di minden non soddisfa quello che vere a un alo relazionale.
+Windows use un PREEMPTIVE scheduling, che opsegne delle risorse a ogni thread,
+se il thread consumo tutte le risorse, nema mondato in coda è n' nocede con fil thread
+successno.
+SOLS use une COOPERATIVE
+*******Scheduling, i thread pomeno volontariamente*******
+Cedere le proprie risorse (suha un
+SOS. SCHEDULER- YIELD mont type). questo
+permette de a Sors du attimisure le rossise / usa della CPU , ni quanto-se unthread
+¿ segnalato per l'esecuzione, ma non è pronto, le sue risorse vengono cedute al
+-med successivo. SPLS ha uno schedulatore per CPU (zia banco che naturale)
+Gli scheduler non sono vincolato alla CPU ,possono anche combate CPU.
+Pervincalarla bisogna definire una maschera di AFFINITÀ)
+SYS. DM_OS_ SCHEDULERS
+x monitor sal
+scheduler status.
+WORKERS > sono i processi gestiti della schedulatore, sapatilha paragonarlo
+an threads, ma il concetto di worker include Wonder FIBER. Filer c' inimita
+*******anche*******
+de secuzione che è acute DENTRO un thread, con l'intenzione di evitare un combo-
+de contesto, superò paragonsee a un mini-thread che gira dentro un thread.
+Ther made è attunate quando sette Lightweight Poolung , cover, avreione 1,
+solitamente questa opzione non è da combrocco, ma se lo fun ci sono alcune funciona lato
+de SOLS che NON FUNZIONATO THE CUR, SALAMI, SAL MAIL.
+C'èun limite al numero do corker che possono essere gestiti dolla scheduler
+in love al parametro "MAX WORKER THREADS" sque configuration
+e vi esse al numero degli scheduler presente. .
+SYS. DM-05- WORKERS
+verificare lo stato degli quartiers
+
+
+
+
+
+
+
+
+TASKS > è un pezzo di lavoro, si può pensare che took é una query, ma non è"
+completamente vera, quando SOL S lancie una query, crea l'E.P. che
+mappa le operazioni
+*******logiche da farsi agli operatori fenici; trigo SCAN, LOOKUPS,*******
+SORT ect. Ogni operatore può essere considerato un TASK.
+SUS. DM-OS-TASK
+mostra la stato di tutti i test sull' istanza de SOL,
+e le informazioni.
+riguardo quale semana è la propietaria di
+ogni tisk., con come e sulla schedulitore su cui è mi esecuzione
+il
+marker che sta seguendo la richiesta
+LOCKING > Macenso che garantisce l'integrità del ocato, attraverso- ACID TEST.
+LEVò essere applicato a RIGHE, TABELLE, INDICI, DATABASE. ( duende doll'isolation
+level )
+La AVVIENE QUANDO
+LEGGO,
+INSERISCO, AGGIORNO, CANCELLO
+La Durante la transazione, la uga è temata dal lack.
+PREVIENE L'ACCESSO SIMULTANZO
+AL DATO
+DIFFERENT
+*******ao some .5*******
+Lock
+TRANSACTION
+LEVEL
+*******de flerenta.*******
+zanelli
+DIFFERENT
+EXCLUSIVE (X)
+*******sono l'amitié*******
+LOCK
+*******per capire*******
+- SHARED ( S )
+MODE
+*******se c'è'um*******
+UPDATE ( V )
+lock .
+INTENT (I)
+SCHEMA (SCH)
+BULK UPDATE ( BU)
+Una sessione SPID 2 che tenta di acquisire un locke su una risorsa già
+in lock da SRID1 neue messe ni BLOCK. SPID 2 quando è mi black si mette
+Mi WAITING.
+
+
+
+
+
+
+
+

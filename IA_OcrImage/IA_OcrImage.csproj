@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.Vision.ImageAnalysis" Version="1.0.0" />
+    <PackageReference Include="Pdfium.Net.SDK" Version="4.95.2704" />
+    <PackageReference Include="System.Drawing.Common" Version="9.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Patagames.Pdf">
+      <HintPath>..\..\..\..\Downloads\Pdfium.Net.SDK\net8.0-windows\Patagames.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Patagames.Pdf.Gdi">
+      <HintPath>..\..\..\..\Downloads\Pdfium.Net.SDK\net8.0-windows\Patagames.Pdf.Gdi.dll</HintPath>
+    </Reference>
+    <Reference Include="Patagames.Pdf.WinForms">
+      <HintPath>..\..\..\..\Downloads\Pdfium.Net.SDK\net8.0-windows\Patagames.Pdf.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Patagames.Pdf.Wpf">
+      <HintPath>..\..\..\..\Downloads\Pdfium.Net.SDK\net8.0-windows\Patagames.Pdf.Wpf.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
