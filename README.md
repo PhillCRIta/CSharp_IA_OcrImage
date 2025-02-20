@@ -15,4 +15,4 @@ This example shows the capabilities of Azure Vision to analayze an handwritten d
 
 
 
-[![me](([https://github.com/PhillCRIta/CSharp_IA_OcrImage/blob/main/OCRImage.gif](https://github.com/PhillCRIta/CSharp_IA_OcrImage/blob/ff48ba263dce8660196190a6ee4a11b8422f05b8/OCRImage.gif)))](https://github.com/PhillCRIta/CSharp_IA_OcrImage/blob/ff48ba263dce8660196190a6ee4a11b8422f05b8/OCRImage.gif)
+![ExtractDocumentInformation](https://github.com/user-attachments/assets/d18aed7f-2e03-4809-ad75-f64ac326f49c)
